@@ -1,8 +1,11 @@
+/*CABEÇA*/
 body {
     min-height: 100vh;
     background: linear-gradient(180deg, #a6a6a6, #ffffff);
     margin: 0;
     color: black;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 a{
     text-decoration: none;
@@ -21,6 +24,33 @@ a{
     cursor: pointer;
 }
 
+/*CORPO INDEX.HTML*/
+.inicio{
+    display: flex;
+}
+.inicio>p{
+    background-color: #a6a6a6;
+    padding: 15px;
+    cursor: pointer;
+}
+.iniciotipos{
+    top: 20%;
+    left: 50%;
+    transform: translate(35%,50%);
+}
+.cell{
+    background: rgb(0,0,0,0.1);
+    border-radius: 15px;
+    width: 210px;
+    margin: 15px;
+    padding: 10px;
+}
+#mobile{
+    display: flex;
+    top: 20%;
+    left: 50%;
+    transform: translate(28%,0);
+}
 /*///////////////////////////////////////////////////////////////////////////////*/
 .material-symbols-outlined {
   font-variation-settings:
