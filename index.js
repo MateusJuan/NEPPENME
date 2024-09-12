@@ -13,6 +13,6 @@ function mobile() {
 function TVAV() {
     var htmlContent1 = "<div class='cell'><img src='tv1.png' style='height: 170px;'><h2>Smart TV QLED 65'' Sasung 4K</h2><p>R$ 7.299,90</p></div>";
     var htmlContent2 = "<div class='cell'><img src='tv2.png' style='height: 200px;'><h2>Samsung The Freestyle 2nd Gen Projetor Smart</h2><p>R$4.529,00</p></div>";
-    var htmlContent3 = "<div class='cell'><img src='cell3.PNG' style='height: 200px;'><h2>Motorola Razr 40</h2><p>R$ 3.499,00</p></div>"
+    var htmlContent3 = "<div class='cell'><img src='tv3.PNG' style='height: 200px;'><h2>Projetor Smart Epson EpiqVison</h2><p>R$ 3.149,01</p></div>"
     document.getElementById("mobile").innerHTML = htmlContent1 + htmlContent2 + htmlContent3;
 };
