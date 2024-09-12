@@ -16,3 +16,7 @@ function TVAV() {
     var htmlContent3 = "<div class='cell'><img src='tv3.PNG' style='height: 200px;'><h2>Projetor Smart Epson EpiqVison</h2><p>R$ 3.149,01</p></div>"
     document.getElementById("mobile").innerHTML = htmlContent1 + htmlContent2 + htmlContent3;
 };
+function ED(){
+    var htmlContent1 = "<div class='cell'><img src='ED1.png' style='height: 170px;'><h2>Fritadeira Sem Óleo Air Fryes 3,5L,Maondial,Preto/Inox,1500W,110V - AF-30 I</h2><p>R$ 255,99</p></div>";
+    document.getElementById("mobile").innerHTML = htmlContent1 /*+ htmlContent2 + htmlContent3*/;
+}
