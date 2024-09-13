@@ -64,17 +64,16 @@
             </form>
         </div>
         <hr>
-        <div class="login">
-            <h1>Criar Conta</h1>
-            <form action="login.php" method="get">
-                <label for="email">Email:</label>
-                <input class="loginIn" type="email" id="email" name="email" required>
+        <div>
+            <form action="criarconta.php" method="POST">
+                <h1>Criar Cconta:</h1>
+                <input type="text" name="nome" id="nome" required placeholder="Nome">
                 <br><br>
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
+                <input type="email" name="email" id="email" required placeholder="exemplo@gmail.com">
                 <br><br>
-                <button type="submit">Entrar</button>
+                <input type="password" name="senha" id="senha" required placeholder="********">
                 <br><br>
+                <input type="submit" name="submit" id="submit">
             </form>
         </div>
     </div>
