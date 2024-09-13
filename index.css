@@ -71,5 +71,8 @@ a{
         height: 14px;
     }    
 }
-
+/*//////////Eletrodomesticos.html/////////////*/
+.itensescolher{
+    display: flex;
+}
 /* CSS MOBILE */
