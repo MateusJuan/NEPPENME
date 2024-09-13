@@ -91,7 +91,7 @@ a{
 
 .shopItem{
     background-color: rgb(0,0,0,0.1);
-    width: 250px;
+    width: 500px;
     border-radius: 15px;
     align-items: center;
     margin: 15px;
@@ -105,18 +105,14 @@ a{
 }
 /*///////monitores//////////////*/
 
-.melhorParte{
+.itensmonitor{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/*login///////////*/
-.minhaconta{
+
+
+.Suporte{
     display: flex;
-    background-color: rgb(0,0,0,0.5);
-    border-radius: 15px;
-    text-align: center;
-}
-hr{
-    background-color: black;
-    width: 1px;
-    border: none;
+    justify-content: space-around;
 }
